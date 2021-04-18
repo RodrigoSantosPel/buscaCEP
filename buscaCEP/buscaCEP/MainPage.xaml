@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="buscaCEP.MainPage">
+
+    <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
+        <!--<Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="BEM VINDO AO Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="COMEÇE A DESENVOLVER AGORA" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="FAÇA MUDANÇAS EM SEU ARQUIVO XAML E SALVE PARA VER SEU UPDATE AO RODAR O APP COM XAML REACARREGADO. FAÇA A TENTATIVA!" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                       <Span Text="LEIA MAIS EM  "/>
+                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>-->
+        <Image Source="logo.png" x:Name="Logo"/>
+        <Entry Placeholder="Digite o CEP" PlaceholderColor="#FFBF00" BackgroundColor="#FFFFFF" x:Name="CEP"/>
+        <Button Text="BUSCAR CEP" TextColor="#FFFFFF" BackgroundColor="#00416B" x:Name="BOTAO"/>
+        <Label VerticalOptions="Center" HorizontalOptions="Center" x:Name="RESULTADO"/>
+    </StackLayout>
+
+</ContentPage>
